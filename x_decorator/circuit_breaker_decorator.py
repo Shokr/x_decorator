@@ -18,7 +18,6 @@ class CircuitBreaker:
      the decorator will wait for 10 seconds before allowing requests to be sent again.
 
     Circuit breaker decorators are a useful tool for building resilient and fault-tolerant systems.
-
     """
 
     def __init__(self, failure_threshold, recovery_timeout):
