@@ -16,7 +16,22 @@ pip install x-decorator
 Here's an examples of how to use x_decorator decorators:
 
 ```python
-from x_decorator import x_circuit_breaker
+
+"""
+When an unexpected event occurs,
+ we might want our code to wait a while,
+  allowing the external system to correct itself and rerun.
+"""
+
+import requests
+
+from x_decorator import x_retry
+
+
+@x_retry(max_tries=5, delay_seconds=2)
+def call_dummy_api():
+    response = requests.get("https://jsonplaceholder.typicode.com/todos/1")
+    return response
 
 ```
 
