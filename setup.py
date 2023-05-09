@@ -42,6 +42,8 @@ setup(
     license="BSD-3-Clause",
     packages=PACKAGES,
     include_package_data=True,
-    install_requires=["schedule", ],
+    install_requires=[
+        'schedule',
+    ],
 
 )
