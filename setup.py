@@ -24,7 +24,7 @@ setup(
     maintainer="Muhammed Shokr",
     maintainer_email="mohammedshokr2014@gmail.com",
     url="https://github.com/shokr/x_decorator",
-    download_url="https://github.com/shokr/x_decorator/archive/" "v%s.tar.gz" % version,
+    # download_url="https://github.com/shokr/x_decorator/archive/" "v%s.tar.gz" % version,
     keywords=["Decorator", "Python"],
     classifiers=[
         "Development Status :: 4 - Beta",
