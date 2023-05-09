@@ -11,7 +11,7 @@ from .queue_processor_decorator import queue_processor as x_queue_processor
 from .rate_limit_decorator import rate_limit as x_rate_limit
 from .retry_decorator import retry as x_retry
 from .run_at_decorator import run_at as x_run_at
-from .scheduler_decorator import scheduler as x_scheduler
+# from .scheduler_decorator import scheduler as x_scheduler
 from .singleton_decorator import singleton as x_singleton
 from .state_machine_decorator import StateMachine as X_StateMachine
 from .state_machine_decorator import state as x_state
