@@ -13,12 +13,13 @@ PACKAGE_NAME = "x_decorator"
 PACKAGES = find_packages(exclude=["*.__old", "*.tests"])
 
 setup(
+
     name=NAME,
     version=version,
     description=(
-        "X Decorator [X Decorator can be used for a variety of purposes, such as logging, memoization, and more.]"),
-    long_description=open("README.md").read(),
-    long_description_content_type="text/markdown",
+        "X Decorator [X Decorator is a python package for decorators that used for a variety of purposes, such as logging, memoization, and more.]"),
+    long_description=open("long_description.rst").read(),
+    long_description_content_type="text/x-rst",
     author="Muhammed Shokr",
     author_email="mohammedshokr2014@gmail.com",
     maintainer="Muhammed Shokr",
