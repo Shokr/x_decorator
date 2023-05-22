@@ -4,7 +4,7 @@ from .circuit_breaker_decorator import CircuitBreaker as X_CircuitBreaker
 from .concurrent_decorator import x_concurrent as x_concurrent
 from .count_calls_decorator import count_calls as x_count_calls
 from .debug_decorator import debug as x_debug
-from .email_on_failure_decorator import email_on_failure as x_email_on_failure
+# from .email_on_failure_decorator import email_on_failure as x_email_on_failure
 from .log_execution_decorator import log_execution as x_log_execution
 from .memoize_decorator import memoize as x_memoize
 from .queue_processor_decorator import queue_processor as x_queue_processor
