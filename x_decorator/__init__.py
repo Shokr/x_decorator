@@ -1,4 +1,4 @@
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 from .circuit_breaker_decorator import CircuitBreaker as X_CircuitBreaker
 from .concurrent_decorator import x_concurrent as x_concurrent
