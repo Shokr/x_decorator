@@ -10,6 +10,7 @@ def count_calls(func):
     @wraps(func)
     def wrapper(*args, **kwargs):
         wrapper.count += 1
+        print(f'{func.__name__} has been called: {wrapper.count}')
         return func(*args, **kwargs)
 
     wrapper.count = 0
