@@ -19,7 +19,7 @@ readme-renderer==37.3
 requests==2.30.0
 requests-toolbelt==1.0.0
 rfc3986==2.0.0
-rich==13.3.5
+rich==13.5.0
 schedule==1.2.0
 SecretStorage==3.3.3
 six==1.16.0
